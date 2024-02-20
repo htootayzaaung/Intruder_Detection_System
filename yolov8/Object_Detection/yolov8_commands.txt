@@ -1,0 +1,8 @@
+1.) Training the model:
+
+yolo task=detect mode=train epochs=50 data=data_custom.yaml model=yolov8m.pt imgsz=640 device=cpu
+
+2.) Testing the model:
+
+yolo task=detect mode=predict model=runs/detect/train6/weights/best.pt conf=0.25 source=test/images
+

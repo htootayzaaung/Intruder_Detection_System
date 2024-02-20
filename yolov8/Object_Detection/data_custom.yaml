@@ -1,0 +1,6 @@
+train: /home/htootayzaaung/Desktop/Intruder_Detection_System/yolov8/Object_Detection/train/images
+val: /home/htootayzaaung/Desktop/Intruder_Detection_System/yolov8/Object_Detection/val/images
+nc: 3
+names: ['Axe', 'Handgun', 'Knife']
+
+
